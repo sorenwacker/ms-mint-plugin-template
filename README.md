@@ -1,5 +1,2 @@
-# A skeleton for python modules. 
-
-    python init_project.py
-    pip install versioneer
-    versioneer install
+# ms_mint_plugin_template
+A template for ms-mint-app plugins
