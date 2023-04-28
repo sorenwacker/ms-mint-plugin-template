@@ -6,6 +6,7 @@ from dash import html, dcc
 class TemplatePlugin(PluginInterface):
     def __init__(self):
         self._label = _label
+        self._order = 100
 
     def layout(self):
         return _layout
@@ -17,7 +18,7 @@ class TemplatePlugin(PluginInterface):
         return _outputs
 
     
-_label = 'Template plugin'    
+_label = 'Template Plugin'    
     
     
 _layout = html.Div([html.H1('Template')])    
