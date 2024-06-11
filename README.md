@@ -3,5 +3,6 @@ A template for ms-mint-app plugins
 
 All you need to do is to install this package to activate the plugin in ms-mint. 
 
-    pip install github+https://github.com/sorenwacker/ms-mint-plugin-template
+    pip install git+https://github.com/sorenwacker/ms-mint-plugin-template.git
+
     
