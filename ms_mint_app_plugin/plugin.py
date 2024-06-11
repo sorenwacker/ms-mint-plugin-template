@@ -18,10 +18,10 @@ class TemplatePlugin(PluginInterface):
         return _outputs
 
     
-_label = 'Template Plugin'    
+_label = 'Plugin'    
     
     
-_layout = html.Div([html.H1('Template')])    
+_layout = html.Div([html.H1('Plugin')])    
     
     
 _outputs = html.Div(
